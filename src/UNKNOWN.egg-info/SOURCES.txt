@@ -1,0 +1,11 @@
+pyproject.toml
+src/UNKNOWN.egg-info/PKG-INFO
+src/UNKNOWN.egg-info/SOURCES.txt
+src/UNKNOWN.egg-info/dependency_links.txt
+src/UNKNOWN.egg-info/top_level.txt
+src/csv_profiler/__init__.py
+src/csv_profiler/app.py
+src/csv_profiler/cli.py
+src/csv_profiler/io.py
+src/csv_profiler/profiling.py
+src/csv_profiler/render.py
