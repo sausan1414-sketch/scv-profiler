@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "csv-profiler"
-version = "0.1.0"
+version = "0.1.1"
 description = "A CSV profiling tool that analyzes and generates reports for CSV files"
 readme = "README.md"
 requires-python = ">=3.9"
@@ -35,6 +35,7 @@ dev = [
 
 [project.scripts]
 csv-profiler = "csv_profiler.cli:app"
+
 
 [tool.setuptools]
 package-dir = { "" = "src" }
