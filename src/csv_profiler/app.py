@@ -4,8 +4,9 @@ from io import StringIO
 
 import streamlit as st
 
-from .profiling import profile_rows
-from .render import write_markdown
+from csv_profiler.profiling import profile_rows
+from csv_profiler.render import write_markdown
+
 
 
 st.set_page_config(page_title="CSV Profiler", layout="wide")

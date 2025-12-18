@@ -23,8 +23,8 @@ def build_markdown_report(profile: Dict[str, Any]) -> str:
     # Summary
     lines.append("## Summary")
     lines.append("")
-    lines.append(f"- **Rows:** {profile['n_rows']:,}")
-    lines.append(f"- **Columns:** {profile['n_cols']}")
+    lines.append(f"- **Rows:** {profile.get('rows', 0)}")
+    lines.append(f"- **Columns:** {profile.get('columns', 0)}")
     lines.append("")
     
     # Column table

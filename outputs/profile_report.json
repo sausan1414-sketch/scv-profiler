@@ -1,0 +1,64 @@
+{
+  "n_rows": 8,
+  "n_cols": 4,
+  "columns": [
+    {
+      "name": "name",
+      "type": "text",
+      "missing": 0,
+      "unique": 8,
+      "top": [
+        [
+          "Aisha",
+          1
+        ],
+        [
+          "Fahad",
+          1
+        ],
+        [
+          "Noor",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "age",
+      "type": "number",
+      "missing": 3,
+      "unique": 5,
+      "min": 23.0,
+      "max": 31.0,
+      "mean": 27.0
+    },
+    {
+      "name": "city",
+      "type": "text",
+      "missing": 1,
+      "unique": 3,
+      "top": [
+        [
+          "Riyadh",
+          3
+        ],
+        [
+          "Jeddah",
+          2
+        ],
+        [
+          "Dammam",
+          2
+        ]
+      ]
+    },
+    {
+      "name": "salary",
+      "type": "number",
+      "missing": 1,
+      "unique": 7,
+      "min": 9000.0,
+      "max": 15000.0,
+      "mean": 12000.0
+    }
+  ]
+}

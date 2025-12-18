@@ -1,14 +1,12 @@
 {
-  "rows": 3,
-  "columns": 3,
-  "column_profiles": [
+  "n_rows": 3,
+  "n_cols": 3,
+  "columns": [
     {
       "name": "name",
       "type": "text",
-      "total": 3,
       "count": 3,
       "missing": 0,
-      "missing_pct": 0.0,
       "unique": 3,
       "top": [
         {
@@ -28,10 +26,8 @@
     {
       "name": "age",
       "type": "number",
-      "total": 3,
       "count": 3,
       "missing": 0,
-      "missing_pct": 0.0,
       "unique": 3,
       "min": 23.0,
       "max": 30.0,
@@ -40,10 +36,8 @@
     {
       "name": "city",
       "type": "text",
-      "total": 3,
       "count": 3,
       "missing": 0,
-      "missing_pct": 0.0,
       "unique": 3,
       "top": [
         {
