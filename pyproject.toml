@@ -8,7 +8,7 @@ version = "0.1.0"
 description = "A CSV profiling tool that analyzes and generates reports for CSV files"
 readme = "README.md"
 requires-python = ">=3.9"
-license = {text = "MIT"}
+license = { text = "MIT" }
 keywords = ["csv", "profiler", "data", "analysis"]
 classifiers = [
     "Development Status :: 3 - Alpha",
@@ -20,10 +20,11 @@ classifiers = [
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
 ]
+
 dependencies = [
     "typer>=0.9.0",
-    "typer>=0.9"
     "streamlit>=1.28.0",
+    "pandas>=2.0.0",
 ]
 
 [project.optional-dependencies]
@@ -33,8 +34,12 @@ dev = [
 ]
 
 [project.scripts]
-csv-profiler = "src.csv_profiler.cli:app"
+csv-profiler = "csv_profiler.cli:app"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
 
 [tool.setuptools.packages.find]
-where = ["."]
-include = ["src*"]
+where = ["src"]
+include = ["csv_profiler*"]
+
