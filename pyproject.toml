@@ -44,3 +44,8 @@ package-dir = { "" = "src" }
 where = ["src"]
 include = ["csv_profiler*"]
 
+[tool.uv.workspace]
+members = [
+    "week2-data-work",
+]
+
